@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "lib": ["es6", "dom"],
+        "target": "ES6",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "sourceMap": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "module": "commonJS"
+    },
+    "exclude": ["node_modules", "dist"]
+}
